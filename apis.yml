@@ -1,24 +1,69 @@
 aid: broadband-access
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadband-access.png
 name: Broadband Access
-description: 'Broadband Access is a company surfaced as a portfolio company of matrix-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Broadband Access Systems, Inc. was a Westborough, Massachusetts networking
+  company founded in 1998 that built a next-generation Internet Protocol (IP) broadband
+  access platform — a carrier-class cable-modem termination system (CMTS) that let
+  cable operators and communications service providers deliver data, voice and video
+  services over hybrid fiber-coax networks at scale. Matrix Partners was one of eight
+  venture investors in the company alongside North Bridge Venture Partners, Norwest,
+  Blueprint Ventures and Bowman Capital Management. ADC Telecommunications agreed on
+  September 20, 2000 to acquire Broadband Access Systems for approximately $2.25 billion
+  in ADC common stock, and the acquisition closed on October 2, 2000. The company was
+  absorbed into ADC''s cable and broadband business, which ADC later divested; ADC itself
+  was acquired by TE Connectivity in 2010. Broadband Access Systems operated no public
+  developer program and shipped hardware platforms rather than APIs; it has had no
+  independent web, documentation, or API surface since 2000. This profile is retained
+  in the API Evangelist network as a historical venture-portfolio record only.'
 url: https://raw.githubusercontent.com/api-evangelist/broadband-access/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - matrix-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired-no-api-surface
+x-status: defunct
+x-founded: '1998'
+x-headquarters: Westborough, Massachusetts, United States
+x-acquired-by: ADC Telecommunications
+x-acquired-date: '2000-10-02'
+x-acquisition-value: USD 2.25 billion (ADC common stock)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure
+- Networking
+- Broadband
+- Telecommunications
+- Cable
+- CMTS
+- Acquired
+- Defunct
+- Historical
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  finding: Company is defunct since 2000 (acquired by ADC Telecommunications). No
+    live domain, developer portal, documentation, or API surface exists. No artifacts
+    were fabricated.
