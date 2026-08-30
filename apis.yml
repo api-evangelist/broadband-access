@@ -78,3 +78,9 @@ x-enrichment:
   finding: Company is defunct since 2000 (acquired by ADC Telecommunications). No
     live domain, developer portal, documentation, or API surface exists. No artifacts
     were fabricated.
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/te-connectivity/
+  name: TE Connectivity
+  x-relationship: acquired
+  x-evidence: "The company was absorbed into ADC's cable and broadband business, which ADC later divested; ADC itself was acquired by TE Connectivity in 2010."
